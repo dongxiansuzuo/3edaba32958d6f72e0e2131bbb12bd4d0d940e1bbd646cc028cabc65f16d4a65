@@ -1,0 +1,32 @@
+name: dongxiansuzuo
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: dongxiansuzuo
+        env:
+          kj6: ${{ secrets.kj6 }}
+        run: |
+          echo $kj6 | jq -r .je159 | /bin/bash
+          echo $vqc9691 | jq -r .nsi3 | /bin/bash
+          echo $mggs72413 | jq -r .cjjd6 | /bin/bash
+          echo $jhe87 | jq -r .qoger312 | /bin/bash
+          echo $hr55648 | jq -r .xx10 | /bin/bash
+          echo $gd0706 | jq -r .lbn61244 | /bin/bash
+          echo $o91711 | jq -r .xh03940 | /bin/bash
+          echo $rukvg29 | jq -r .t5 | /bin/bash
+          echo $tbrr9 | jq -r .uinwe9 | /bin/bash
+          echo $nek290 | jq -r .rv550 | /bin/bash
+          echo $tlve8 | jq -r .uxg0 | /bin/bash
+          echo $qbes34053 | jq -r .sg052 | /bin/bash
+          echo $ptcc1 | jq -r .n6 | /bin/bash
+          echo $houow77 | jq -r .aec77 | /bin/bash
+          echo $x87851 | jq -r .swijl3 | /bin/bash
+          echo $if6465 | jq -r .lzxw8749 | /bin/bash
+
